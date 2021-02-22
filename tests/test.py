@@ -84,4 +84,4 @@ for filename in dossier:
         test_ns(doc_a_tester)
         test_schema(doc_a_tester)
     else:
-        raise Exception("Vous ne testez pas du XML.")
+        pass
