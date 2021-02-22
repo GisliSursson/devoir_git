@@ -11,12 +11,12 @@ from lxml.etree import XMLSyntaxError
 
 # FAIRE LA DOCUMENTATION DES FONCTIONS
 def test_well_formed(doc):
-            """ Test XM# doc_a_tester = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "*.xml"), key=os.path.getctime)L bien formé (par rapport à la syntaxe XML)
+    """ Test XM# doc_a_tester = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "*.xml"), key=os.path.getctime)L bien formé (par rapport à la syntaxe XML)
             
             :param doc: doc à tester
             :type doc: TextIOWrapper
             :returns: rien
-            """
+    """
     with open(doc) as doc:
         try:
             doc = etree.parse(doc)
@@ -26,12 +26,12 @@ def test_well_formed(doc):
 
         # Test présence du name space TEI (les atributs fonctionnent comme des dict)
 def test_ns(doc):
-            """ Test si l'élément racine est bien TEI avec le ns TEI
+    """ Test si l'élément racine est bien TEI avec le ns TEI
             
             :param doc: doc à tester
             :type doc: TextIOWrapper
             :returns: rien
-            """
+    """
     with open(doc) as doc:
         doc = etree.parse(doc)
         # récupère tous les enfants de la root
@@ -44,12 +44,12 @@ def test_ns(doc):
 
         # Test XML valide (par rapport au schéma du projet)
 def test_schema(doc):
-            """ Test si le document est conforme au schéma du projet 
+    """ Test si le document est conforme au schéma du projet 
             
             :param doc: doc à tester
             :type doc: TextIOWrapper
             :returns: rien
-            """
+    """
     with open(doc) as doc:
         relaxng_doc = etree.parse(schema)
         relaxng = etree.RelaxNG(relaxng_doc)
