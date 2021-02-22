@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/chap_2_github_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/chap_2_github_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">Ten days that shook the World/Appendices</title>
+            <title type="full">Appendix to Chapter II</title>
+            <author cert="high">John Reed</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Boni and Liveright</publisher>
+            <publisher ref="contributor">Internet Archive</publisher>
+            <pubPlace>New York, New York, United States of America</pubPlace>
+            <date when="1919">1919</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ten Days That Shook the World by John Reed</title>
+               <distributor facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World/Appendices"/>
+               <biblScope unit="page" from="325" to="420">pp.325-420</biblScope>
+            </bibl>
+            <biblStruct>
+               <monogr>
+                  <imprint>
+                     <publisher>Boni and Liveright</publisher>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1919">1919</date>
+         </creation>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textDesc n="novel">
+            <channel mode="w">printed</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="art"/>
+            <factuality type="mixed"/>
+            <interaction type="none"/>
+            <preparedness type="prepared"/>
+            <purpose type="entertain" degree="high"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name>Russia</name>
+               <time>October 1917</time>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Appendix to Chapter II</head>
+         <div type="numeric" n="1">
+            <head>First paragraph</head>
+            <p>The Kornilov revolt is treated in detail in my forthcoming volume, “Kornilov to
+               Brest-Litovsk.” The responsibility of Kerensky for the situation which gave rise to
+               Kornilov’s attempt is now pretty clearly established. Many apologists for Kerensky
+               say that he knew of Kornilov’s plans, and by a trick drew him out prematurely, and
+               then crushed him. Even Mr. A. J. Sack, in his book, “The Birth of the Russian
+               Democracy,” says:</p>
+            <p>“Several things… are almost certain. The first is that Kerensky knew about the
+               movement of several detachments from the Front toward Petrograd, and it is possible
+               that as Prime Minister and Minister of War, realising the growing Bolshevist danger,
+               he called for them….”</p>
+            <p>The only flaw in that argument is that there was no “Bolshevist danger” at that time,
+               the Bolsheviki still being a powerless minority in the Soviets, and their leaders in
+               jail or hiding.</p>
+         </div>
+         <div type="numeric" n="2">
+            <head>Democratic Conference</head>
+            <p>When the Democratic Conference was first proposed to Kerensky, he suggested an
+               assembly of all the elements in the nation—“the live forces,” as he called
+               them—including bankers, manufacturers, land-owners, and representatives of the Cadet
+               party. The Soviet refused, and drew up the following table of representation, which
+               Kerensky agreed to:</p>
+            <table cols="2" rows="13">
+               <row n="1">
+                  <cell n="1">100 delegates</cell>
+                  <cell n="2">All-Russian Soviets Workers’ and Soldiers’ Deputies</cell>
+               </row>
+               <row n="2">
+                  <cell n="1">100 delegates</cell>
+                  <cell n="2">All-Russian Soviets Peasants’ Deputies</cell>
+               </row>
+               <row n="3">
+                  <cell n="1">50 delegates</cell>
+                  <cell n="2">Provincial Soviets Workers’ and Soldiers’ Deputies</cell>
+               </row>
+               <row n="4">
+                  <cell n="1">50 delegates</cell>
+                  <cell n="2">Peasants’ District Land Committees</cell>
+               </row>
+               <row n="5">
+                  <cell n="1">100 delegates</cell>
+                  <cell n="2">Trade Unions</cell>
+               </row>
+               <row n="6">
+                  <cell n="1">84 delegates</cell>
+                  <cell n="2">Army Committees at the Front</cell>
+               </row>
+               <row n="7">
+                  <cell n="1">150 delegates</cell>
+                  <cell n="2">Workers’ and Peasants’ Cooperative Societies</cell>
+               </row>
+               <row n="8">
+                  <cell n="1">20 delegates</cell>
+                  <cell n="2">Railway Workers’ Union</cell>
+               </row>
+               <row n="9">
+                  <cell n="1">10 delegates</cell>
+                  <cell n="2">Post and Telegraph Workers’ Union</cell>
+               </row>
+               <row n="10">
+                  <cell n="1">20 delegates</cell>
+                  <cell n="2">Commercial Clerks</cell>
+               </row>
+               <row n="11">
+                  <cell n="1">15 delegates</cell>
+                  <cell n="2">Liberal Professions—Doctors, Lawyers, Journalists, etc.</cell>
+               </row>
+               <row n="12">
+                  <cell n="1">50 delegates</cell>
+                  <cell n="2">Provincial Zemstvos</cell>
+               </row>
+               <row n="13">
+                  <cell n="1">59 delegates</cell>
+                  <cell n="2">Nationalist Organisations—Poles, Ukraineans, etc.</cell>
+               </row>
+            </table>
+            <p>This proportion was altered twice or three times. The final disposition of delegates
+               was:</p>
+            <table cols="2" rows="8">
+               <row n="1">
+                  <cell n="1">300 delegates</cell>
+                  <cell n="2">All-Russian Soviets Workers’, Soldiers’ and Peasants’ Deputies</cell>
+               </row>
+               <row n="2">
+                  <cell n="1">300 delegates</cell>
+                  <cell n="2">Cooperative Societies</cell>
+               </row>
+               <row n="3">
+                  <cell n="1">300 delegates</cell>
+                  <cell n="2">Municipalities</cell>
+               </row>
+               <row n="4">
+                  <cell n="1">150 delegates</cell>
+                  <cell n="2">Army Committees at the Front</cell>
+               </row>
+               <row n="5">
+                  <cell n="1">150 delegates</cell>
+                  <cell n="2">Provincial Zemstvos</cell>
+               </row>
+               <row n="6">
+                  <cell n="1">200 delegates</cell>
+                  <cell n="2">Trade Unions</cell>
+               </row>
+               <row n="7">
+                  <cell n="1">100 delegates</cell>
+                  <cell n="2">Nationalist Organisations</cell>
+               </row>
+               <row n="8">
+                  <cell n="1">200 delegates</cell>
+                  <cell n="2">Several small groups</cell>
+               </row>
+            </table>
+         </div>
+         <div type="numeric" n="3">
+            <head>The function of the Soviets is ended</head>
+            <p>On September 28th, 1917, Izviestia, organ of the Tsay-ee-kah, published an article
+               which said, speaking of the last Provisional Ministry:</p>
+            <p>“At last a truly democratic government, born of the will of all classes of the
+               Russian people, the first rough form of the future liberal parliamentary régime, has
+               been formed. Ahead of us is the Constituent Assembly, which will solve all questions
+               of fundamental law, and whose composition will be essentially democratic. The
+               function of the Soviets is at an end, and the time is approaching when they must
+               retire, with the rest of the revolutionary machinery, from the stage of a free and
+               victorious people, whose weapons shall hereafter be the peaceful ones of political
+               action.”</p>
+            <p>The leading article of Izviestia for October 23d was called, “The Crisis in the
+               Soviet Organisations.” It began by saying that travellers reported a lessening
+               activity of local Soviets everywhere. “This is natural,” said the writer. “For the
+               people are becoming interested in the more permanent legislative organs—the Municipal
+               Dumas and the Zemstvs….</p>
+            <p>“In the important centres of Petrograd and Moscow, where the Soviets were best
+               organised, they did not take in all the democratic elements…. The majority of the
+               intellectuals did not participate, and many workers also; some of the workers because
+               they were politically backward, others because the centre of gravity for them was in
+               their Unns…. We cannot deny that these organisations are firmly united with the
+               masses, whose everyday needs are better served by them….</p>
+            <p>“That the local democratic administrations are being energetically organised is
+               highly important. The City Dumas are elected by universal suffrage, and in purely
+               local matters have more authority than the Soviets. Not a single democrat will see
+               anything wrong in this….</p>
+            <p>“… Elections to the Municipalities are being conduct in a better and more democratic
+               way than the elections to the Soviets… All classes are represented in the
+               Municipalities…. And as soon as the local Self-Governments begin to organise life in
+               the Municipalities, the rôle of the local Soviets naturally ends….</p>
+            <p>“… There are two factors in the falling off of interest in the Soviets. The first we
+               may attribute to the lowering of political interest in the masses; the second, to the
+               growing effort of provincial and local governing bodies to organise the building of
+               new Russia…. The more the tendency lies in this latter direction, the sooner
+               disappears the significance of the Soviets….</p>
+            <p>“We ourselves are being called the ‘undertakers’ of our own organisation. In reality,
+               we ourselves are the hardest workers in constructing the new Russia….</p>
+            <p>“When autocracy and the whole bureaucratic règimeell, we set up the Soviets as a
+               barracks in which all the democracy cod find temporary shelter. Now, instead of
+               barracks, we are building the permanent edifice of a new system, and naturally the
+               people will gradually leave the barracks for more comfortable quarters.”</p>
+         </div>
+         <div type="numeric" n="4">
+            <head>Trotzky's speech at the Council of the Russian Republic</head>
+            <p>“The purpose of the Democratic Conference, which was called by the Tsay-ee-kah, was
+               to do away with the irresponsible personal government which produced Kornilov, and to
+               establish a responsible government which would be capable of finishing the war, and
+               ensure the calling of the Constituent Assembly at the given time. In the meanwhile
+               behind the back of the Democratic Conference, by trickery, by deals between Citizen
+               Kerensky, the Cadets, and the leaders of the Menshevik and Socialist Revolutionary
+               parties, we received the opposite result from the officially announced purpose. A
+               power was created around which and in which we have open and secret Kornilovs playing
+               leading parts. The irresponsibility of the Government is offically proclaimed, when
+               it is announced that the Council of the Russian Republic is to be a consultative and
+               not legislative body. In the eighth month of the Revolution, the irresponsible
+               Government creates a cover for itself in this new edition of Bieligen’s Duma.</p>
+            <p>“The propertied classes have entered this Provision Council in a proportion which
+               clearly shows, from elections all over the country, that many of them have no right
+               here whatever. In spite of that the Cadet party, which until yesterday wanted the
+               Provisional Government to be responsible to the State Duma—this same Cadet party
+               secured the independence Assembly the propertied classes will no doubt have as
+               favourable position than they have in this Council, and they will not be able to be
+               irresponsible to the Constituent Assembly.</p>
+            <p>“If the propertied classes were really getting ready for the Constituent Assembly six
+               weeks from now, there could be no reason for establishing the irresponsibility of the
+               Government at this time. The whole truth is that the bourgeoisie, which directs the
+               policies of the Provisional Government, has for its aim to break the Constituent
+               Assembly. At present this is the main purpose of the propertied classes, which
+               control our entire national policy—external and internal. In the industrial, agrarian
+               and supply departments the politics of the propertied classes, acting with the
+               Government, increases the natural disorganisation caused by the war. The propertied
+               classes, which are provoking a peasants’ revolt! The propertied classes, which are
+               provoking civil war, and openly hold their course on the bony hand of hunger, with
+               which they intend to overthrow the Revolution and finish with the Constituent
+               Assembly!</p>
+            <p>“No less criminal also is the international policy of the bourgeoisie and its
+               Government. After forty months of war, the capital is threatened with mortal danger.
+               In reply to this arises a plan to move the Government to Moscow. The idea of
+               abandoning the capital does not stir the indignation of the bourgeoisie. Just the
+               opposite. It is accepted as a natural part of the general policy designed to promote
+               counter-revolutionary conspiracy. … Instead of recognising that the salvation of the
+               country lies in concluding peace, instead of throwing openly the idea of immediate
+               peace to all the worn-out peoples, over the heads of diplomats and imperialists, and
+               making the continuation of the war impossible,—the Provisional Government, by order
+               of the Cadets, the Counter-Revolutionists and the Allied Imperialists, without sense,
+               without purpose and without a plan, continues to drag on the murderous war,
+               sentencing to useless death new hundreds of thousands of soldiers and sailors, and
+               preparing to give up Petrograd, and to wreck the Revolution. At a time when Bolshevik
+               soldiers and sailors are dying with other soldiers and sailors as a result of the
+               mistakes and crimes of others, the so-called Supreme Commander (Kerensky) continues
+               to suppress the Bolshevik press. The leading parties of the Council are acting as a
+               voluntary cover for these policies.</p>
+            <p>“We, the faction of Social Democrats Bolsheviki, announce that with this Government
+               of Treason to the People we have nothing in common. We have nothing in common with
+               the work of these Murderers of the People which goes on behind official curtains. We
+               refuse either directly or indirectly to cover up one day of this work. While
+               Wilhelm’s troops are threatening Petrograd, the Government of Kerensky and Kornilov
+               is preparing to run away from Petrograd and turn Moscow into a base of
+               counter-revolution!</p>
+            <p>“We warn the Moscow workers and soldiers to be on their guard. Leaving this Council,
+               we appeal to the manhood and wisdom of the workers, peasants and soldiers of all
+               Russia. Petrograd is in danger! The Revolution is in danger! The Government has
+               increased the danger—the ruling classes intensify it. Only the people themselves can
+               save themselves and the country.</p>
+            <p>“We appeal to the people. Long live immediate, honest, democratic peace! All power to
+               the Soviets! All land to the people! Long live the Constituent Assembly!”</p>
+         </div>
+         <div type="numeric" n="5">
+            <head>The "Nakaz" to Skobeliev</head>
+            <div>
+               <head>Résumé</head>
+               <p>(Passed by the Tsay-ee-kah and given to Skobeliev as an instruction for the
+                  representative of the Russian Revolutionary democracy at the Paris
+                  Conference.)</p>
+               <p>The peace treaty must be based on the principle, “No annexations, no indemnities,
+                  the right of self-determination of peoples.”</p>
+            </div>
+            <div>
+               <head>Territorial problems</head>
+               <p><num>1</num> Evacuation of German troops from invaded Russia. Full right of
+                  self-determination to Poland, Lithuania and Livonia.</p>
+               <p><num>2</num>For Turkish Armenia autonomy, and later complete self-determination,
+                  as soon as local Governments are established.</p>
+               <p><num>3</num>The question of Alsace-Lorraine to be solved by a plebiscite, after
+                  the withdrawal of all foreign troops.</p>
+               <p><num>4</num>Belgium to be restored. Compensation for damages from an international
+                  fund.</p>
+               <p><num>5</num>Serbia and Montenegro to be restored, and aided by an international
+                  relief fund. Serbia to have an outlet on the Adriatic. Bosnia and Herzegovina to
+                  be autonomous.</p>
+               <p><num>6</num>The disputed provinces in the Balkans to have provisional autonomy,
+                  followed by a plebiscite.</p>
+               <p><num>7</num>Rumania to be restored, but forced to give complete self-determination
+                  to the Dobrudja…. Rumania must be forced to execute the clauses of the Berlin
+                  Treaty concerning the Jews, and recognise them as Rumanian citizens.</p>
+               <p><num>8</num>In Italia Irridenta a provisional autonomy, followed by a plebiscite
+                  to determine state dependence.</p>
+               <p><num>9</num>The German colonies to be returned.</p>
+               <p><num>10</num>Greece and Persia to be restored.</p>
+            </div>
+            <div>
+               <head>Freedom of the Seas</head>
+               <p>All straits opening into inland seas, as well as the Suez and Panama Canals, are
+                  to be neutralised. Commercial shipping to be free. The right of privateering to be
+                  abolished. The torpedoing of commercial ships to be forbidden.</p>
+            </div>
+            <div>
+               <head>Indemnities</head>
+               <p>All combatants to renounce demands for any indemnities, either direct or
+                  indirect—as, for instance, charges for the maintenance of prisoners. Indemnities
+                  and contributions collected during the war must be refunded.</p>
+            </div>
+            <div>
+               <head>Economic Terms</head>
+               <p>Commercial treaties are not to be a part of the peace terms. Every country must be
+                  independent in its commercial relations, and must not be obliged to, or prevented
+                  from, concluding an economic treaty, by the Treaty of Peace. Nevertheless, all
+                  nations should bind themselves, by the Peace Treaty, not to practise an economic
+                  blockade after the war, nor to form separate tariff agreements. The right of most
+                  favoured nation must be given to all countries without distinction.</p>
+            </div>
+            <div>
+               <head>Guarantees of Peace</head>
+               <p>Peace is to be concluded at the Peace Conference by delegates elected by the
+                  national representative institutions of each country. The peace terms are to be
+                  confirmed by these parliaments.</p>
+               <p>Secret diplomacy is to be abolished; all parties are to bind themselves not to
+                  conclude any secret treaties. Such treaties are declared in contradiction to
+                  international law, and void. All treaties, until confirmed by the parliaments of
+                  the different nations, are to be considered void.</p>
+               <p>Gradual disarmament both on land and sea, and the establishment of a militia
+                  system. The “League of Nations” advanced by President Wilson may become a valuable
+                  aid to international law, provided that (a), all nations are to be obliged to
+                  participate in it with equal rights, and (b), international politics are to be
+                  democratised.</p>
+            </div>
+            <div>
+               <head>Ways to Peace</head>
+               <p>The Allies are to announce immediately that they are willing to open peace
+                  negotiations as soon as the enemy powers declare their consent to the renunciation
+                  of all forcible annexations.</p>
+               <p>The Allies must bind themselves not to begin any peace negotiations, nor to
+                  conclude peace, except in a general Peace Conference with the participation of
+                  delegates from all the neutral countries.</p>
+               <p>All obstacles to the Stockholm Socialist Conference are to be removed, and
+                  passports are to be given immediately to all delegates of parties and
+                  organisations who wish to participate.</p>
+               <p>(The Executive Committee of the Peasants’ Soviets also issued a nakaz, which
+                  differs little from the above.)</p>
+            </div>
+         </div>
+         <div type="numeric" n="6">
+            <head>Peace at Russia's expense</head>
+            <p>The Ribot revelations of Austria’s peace-offer to France; the so-called “Peace
+               Conference” at Berne, Switzerland, during the summer of 1917, in which delegates
+               participated from all belligerent countries, representing large financial interests
+               in all these countries; and the attempted negotiations of an English agent with a
+               Bulgarian church dignitary; all pointed to the fact that there were strong currents,
+               on both sides, favourable to patching up a peace at the expense of Russia. In my next
+               book, “Kornilov to Brest-Litovsk,” I intend to treat this matter at some length,
+               publishing several secret documents discovered in the Ministry of Foreign Affairs at
+               Petrograd.</p>
+         </div>
+         <div type="numeric" n="7">
+            <head>Russian soldiers in France</head>
+            <div>
+               <head>Official Report of the Provisional Government.</head>
+               <p>“From the time the news of the Russian Revolution reached Paris, Russian
+                  newspapers of extreme tendencies immediately began to appear; and these
+                  newspapers, as well as individuals, freely circulated among the soldier masses and
+                  began a Bolshevik propaganda, often spreading false news which appeared in the
+                  French journals. In the absence of all official news, and of precise details, this
+                  campaign provoked discontent among the soldiers. The result was a desire to return
+                  to Russia, and a hatred toward the officers.</p>
+               <p>“Finally it all turned into rebellion. In one of their meetings, the soldiers
+                  issued an appeal to refuse to drill, since they had decided to fight no more. It
+                  was decided to isolate the rebels, and General Zankievitch ordered all soldiers
+                  loyal to the Provisional Government to leave the camp of Courtine, and to carry
+                  with them all ammunition. On June 25th the order was executed; there remained at
+                  the camp only the soldiers who said they would submit ‘conditionally’ to the
+                  Provisional Government. The soldiers at the camp of Courtine received several
+                  times the visit of the Commander-in-Chief of the Russian Armies abroad, of Rapp,
+                  the Commissar of the Ministry of War, and of several distinguished former exiles
+                  who wished to influence them, but these attempts were unsuccessful, and finally
+                  Commissar Rapp insisted that the rebels lay down their arms, and, in sign of
+                  submission, march in good order to a place called Clairvaux. The order was only
+                  partially obeyed; first 500 men went out, of whom 22 were arrested; 24 hours later
+                  about 6,000 followed…. About 2,000 remained….</p>
+               <p>“It was decided to increase the pressure; their rations were diminished, their pay
+                  was cut off, and the roads toward the village of Courtine were guarded by French
+                  soldiers. General Zankievitch, having discovered that a Russian artillery brigade
+                  was passing through France, decided to form a mixed detachment of infantry and
+                  artillery to reduce the rebels. A deputation was sent to the rebels; the
+                  deputation returned several hours later, convinced of the futility of the
+                  negotiations. On September 1st General Zankievitch sent an ultimatum to the rebels
+                  demanding that they lay down their arms, and menacing in case of refusal to open
+                  fire with artillery if the order was not obeyed by September 3d at 10 o’clock.</p>
+               <p>“The order not being executed, a light fire of artillery was opened on the place
+                  at the hour agreed upon. Eighteen shells were fired, and the rebels were warned
+                  that the bombardment would become more intense. In the night of September 3d 160
+                  men surrendered. September 4th the artillery bombardment recommenced, and at 11
+                  o’clock, after 36 shells had been fired, the rebels raised two white flags and
+                  began to leave the camp without arms. By evening 8,300 men had surrendered. 150
+                  soldiers who remained in the camp opened fire with machine-guns that night. The
+                  5th of September, to make an end of the affair, a heavy barrage was laid on the
+                  camp, and our soldiers occupied it little by little. The rebels kept up a heavy
+                  fire with their machine-guns. September 6th, at 9 o’clock, the camp was entirely
+                  occupied…. After the disarmament of the rebels, 81 arrests were made….”</p>
+               <p>Thus the report. From secret documents discovered in the Ministry of Foreign
+                  Affairs, however, we know that the account is not strictly accurate. The first
+                  trouble arose when the soldiers tried to form Committees, as their comrades in
+                  Russia were doing. They demanded to be sent back to Russia, which was refused; and
+                  then, being considered a dangerous influence in France, they were ordered to
+                  Salonika. They refused to go, and the battle followed…. It was discovered that
+                  they had been left in camp without officers for about two months, and badly
+                  treated, before they became rebellious. All attempts to find out the name of the
+                  “Russian artillery brigade” which had fired on them were futile; the telegrams
+                  discovered in the Ministry left it to be inferred that French artillery was
+                  used….</p>
+               <p>After their surrender, more than two hundred of the mutineers were shot in cold
+                  blood.</p>
+            </div>
+         </div>
+         <div type="numeric" n="8">
+            <head>Terestchenko's speech (Resumé)</head>
+            <p>“… The questions of foreign policy are closely related to those of national defence….
+               And so, if in questions of national defence you think it is necessary to hold session
+               in secret, also in our foreign policy we are sometimes forced to observe the same
+               secrecy….</p>
+            <p>“German diplomacy attempts to influence public opinion…. Therefore the declarations
+               of directors of great democratic organisations who talk loudly of a revolutionary
+               Congress, and the impossibility of another winter campaign, are dangerous…. All these
+               declarations cost human lives….</p>
+            <p>“I wish to speak merely of governmental logic, without touching the questions of the
+               honour and dignity of the State. From the point of view of logic, the foreign policy
+               of Russia ought to be based on a real comprehension of the interests of Russia….
+               These interests mean that it is impossible that our country remain alone, and that
+               the present alignment of forces with us, (the Allies), is satisfactory…. All humanity
+               longs for peace, but in Russia no one will permit a humiliating peace which would
+               violate the State interests of our fatherland!”</p>
+            <p>The orator pointed out that such a peace would for long years, if not for centuries,
+               retard the triumph of democratic principles in the world, and would inevitably cause
+               new wars.</p>
+            <p>“All remember the days of May, when the fraternisation on our Front threatened to end
+               the war by a simple cessation of military operations, and lead the country to a
+               shameful separate peace… and what efforts it was necessary to use to make the soldier
+               masses at the front understand that it was not by this method that the Russian State
+               must end the war and guarantee its interest….”</p>
+            <p>He spoke of the miraculous effect of the July offensive, what strength it gave to the
+               words of Russian ambassadors abroad, and the despair in Germany caused by the Russian
+               victories. And also, the disillusionment in Allied countries which followed the
+               Russian defeat….</p>
+            <p>“As to the Russian Government, it adhered strictly to the formula of May, ‘No
+               annexations and no punitive indemnities.’ We consider it essential not only to
+               proclaim the self-determination of peoples, but also to renounce imperialist
+               aims….”</p>
+            <p>Germany is continually trying to make peace. The only talk in Germany is of peace;
+               she knows she cannot win.</p>
+            <p>“I reject the reproaches aimed at the Government which allege that Russian foreign
+               policy does not speak clearly enough about the aims of the war….</p>
+            <p>“If the question arises as to what ends the Allies are pursuing, it is indispensable
+               first to demand what aims the Central Powers have agreed upon….</p>
+            <p>“The desire is often heard that we publish the details of the treaties which bind the
+               Allies; but people forget that, up to now, we do not know the treaties which bind the
+               Central Powers….”</p>
+            <p>Germany, he said, evidently wants to separate Russia from the West by a series of
+               weak buffer-states.</p>
+            <p>“This tendency to strike at the vital interests of Russia must be checked….</p>
+            <p>“And will the Russian democracy, which has inscribed on its banner the rights of
+               nations to dispose of themselves, allow calmly the continuation of oppression upon
+               the most civilised peoples (in Austria-Hungary)?</p>
+            <p>“Those who fear that the Allies will try to profit by our difficult situation, to
+               make us support more than our share of the burden of war, and to solve the questions
+               of peace at our expense, are entirely mistaken…. Our enemy looks upon Russia as a
+               market for its products. The end of the war will leave us in a feeble condition, and
+               with our frontier open the flood of German products can easily hold back for years
+               our industrial development. Measures must be taken to guard against this….</p>
+            <p>“I say openly and frankly: the combination of forces which unites us to the Allies is
+               favourable to the interests of Russia…. It is therefore important that our views on
+               the questions of war and peace shall be in accord with the views of the Allies as
+               clearly and precisely as possible…. To avoid all misunderstanding, I must say frankly
+               that Russia must present at the Paris Conference one point of view….”</p>
+            <p>He did not want to comment on the nakaz to Skobeliev, but he referred to the
+               Manifesto of the Dutch-Scandinavian Committee, just published in Stockholm. This
+               Manifesto declared for the autonomy of Lithuania and Livonia; “but that is clearly
+               impossible,” said Terestchenko, “for Russia must have free ports on the Baltic all
+               the year round….</p>
+            <p>“In this question the problems of foreign policy are also closely related to interior
+               politics, for if there existed a strong sentiment of unity of all great Russia, one
+               would not witness the repeated manifestations, everywhere, of a desire of peoples to
+               separate from the Central Government…. Such separations are contrary to the interests
+               of Russia, and the Russian delegates cannot raise the issue….”</p>
+         </div>
+         <div type="numeric" n="9">
+            <head>The British Fleet (etc.)</head>
+            <p>At the time of the naval battle of the Gulf of Riga, not only the Bolsheviki, but
+               also the Ministers of the Provisional Government, considered that the British Fleet
+               had deliberately abandoned the Baltic, as one indication of the attitude so often
+               expressed publicly by the British press, and semi-publicly by British representatives
+               in Russia, “Russia’s finished! No use bothering about Russia!”</p>
+            <note>See interview with Kerensky (Appendix 13).</note>
+            <p>GENERAL GURKO was a former Chief of Staff of the Russian armies under the Tsar. He
+               was a prominent figure in the corrupt Imperial Court. After the Revolution, he was
+               one of the very few persons exiled for his political and personal record. The Russian
+               naval defeat in the Gulf of Riga coincided with the public reception, by King George
+               in London, of General Gurko, a man whom the Russian Provisional Government considered
+               dangerously pro-German as well as reactionary!</p>
+         </div>
+         <div type="numeric" n="10">
+            <head>Appeals against insurrection</head>
+            <note>To Workers and Soldiers</note>
+            <p>“Comrades! The Dark Forces are increasingly trying to call forth in Petrograd and
+               other towns DISORDERS AND Pogroms. Disorder is necessary to the Dark Forces, for
+               disorder will give them an opportunity for crushing the revolutionary movement in
+               blood. Under the pretext of establishing order, and of protecting the inhabitants,
+               they hope to establish the domination of Kornilov, which the revolutionary people
+               succeeded in suppressing not long ago. Woe to the people if these hopes are realised!
+               The triumphant counter-revolution will destroy the Soviets and the Army Committees,
+               will disperse the Constituent Assembly, will stop the transfer of the land to the
+               Land Committees, will put an end to all the hopes of the people for a speedy peace,
+               and will fill all the prisons with revolutionary soldiers and workers.</p>
+            <p>“In their calculations, the counter-revolutionists and Black Hundred leaders are
+               counting on the serious discontent of the unenlightened part of the people with the
+               disorganisation of the food-supply, the continuation of the war, and the general
+               difficulties of life. They hope to transform every demonstration of soldiers and
+               workers into a pogrom, which will frighten the peaceful population and throw it into
+               the arms of the Restorers of Law and Order.</p>
+            <p>“Under such conditions every attempt to organise a demonstration in these days,
+               although for the most laudable object, would be a crime. All conscious workers and
+               soldiers who are displeased with the policy of the Government will only bring injury
+               to themselves and to the Revolution if they indulge in demonstrations.</p>
+            <p>“THEREFORE THE Tsay-ee-kah ASKS ALL WORKERS NOT TO OBEY ANY CALLS TO DEMONSTRATE.
+               “WORKERS AND SOLDIERS! DO NOT YIELD TO PROVOCATION! REMEMBER YOUR DUTY TO YOUR
+               COUNTRY AND TO THE REVOLUTION! DO NOT BREAK THE UNITY OF THE REVOLUTIONARY FRONT BY
+               DEMONSTRATIONS WHICH ARE BOUND TO BE UNSUCCESSFUL!”</p>
+            <p><hi rend="italic">The Central Executive Committee of the Soviets of Workers’ and
+                  Soldiers’ Deputies (Tsay-ee-kah)</hi></p>
+            <p><hi rend="italic">Russian Social Democratic Labour Party</hi>THE DANGER IS NEAR! To
+               All Workers and Soldiers <note><hi rend="italic">(Read and Hand to
+                  Others)</hi></note></p>
+            <p><hi rend="italic">Comrades Workers and Soldiers!</hi></p>
+            <p>“Our country is in danger. On account of this danger our freedom and our Revolution
+               are passing through difficult days. The enemy is at the gates of Petrograd. The
+               disorganisation is growing with every hours. It becomes more and more difficult to
+               obtain bread for Petrograd. All, of from the smallest to the greatest, must redouble
+               their efforts, must endeavour to arrange things properly…. We must save our country,
+               say freedom…. More arms and provisions for the Army! Bread—for the great cities.
+               Order and organisation in the country….</p>
+            <p>“And in these terrible critical days rumours creep about that SOMEWHERE a
+               demonstration is being prepared, that SOME ONE is calling on the soldiers and workers
+               to destroy revolutionary peace and order…. <hi rend="italic">Rabotchi Put</hi>, the
+               newspaper of the Bolsheviki, is pouring oil on the flames: it flattering, trying to
+               please the unenlightened people, tempting the worker and soldiers, urging them on
+               against the Government, promising them mountains of good things…. The confiding,
+               ignorant men believe, they do not reason…. And from the other side come also
+               rumours—rumours that the Dark Forces, the friends of the Tsar, the German spies, are
+               rubbing their hands with glee. They are ready to join the Bolsheviki, and with them
+               fan the disorders into civil war.</p>
+            <p>“The Bolsheviki and the ignorant soldiers and workers seduced by them cry
+               senselessly: ‘Down with the Government! All power to the Soviets!’ And the Dark
+               servants of the Tsar and the spies of Wilhelm will egg the on; ‘Beat the Jews, beat
+               the shopkeepers, rob the markets, devastate the shops, pillage the wine stores! Slay,
+               burn, rob!’</p>
+            <p>“And then will begin a terrible confusion, a war between one part of the people and
+               the other. All will become still more disorganised, and perhaps once more blood will
+               be shed on the streets of the capital. And then what then?</p>
+            <p>“Then, the road to Petrograd will be open to Wilhelm. Then, no bread will come to
+               Petrograd, the children will die of hunger. Then, the Army as the front will remain
+               without support, our brothers in the trenches will be delivered to the fire of the
+               enemy. Then, Russia will lose all prestige in other countries, our money will lose
+               its value; everything will be so dear as to make life impossible. Then, the long
+               awaited Constituent Assembly will be postponed—it will be impossible to convene it in
+               time. And then—Death to the Revolution, Death to our Liberty….</p>
+            <p>“Is it this that you want, workers and soldiers? No! If you do not then go, go to the
+               ignorant people seduced by the betrayers, and tell them the whole truth, which we
+               have told you!</p>
+            <p>“Let all know that EVERY MAN WHO IN THESE TERRIBLE DAYS CALLS ON YOU TO COME OUT IN
+               THE STREETS AGAINST THE GOVERNMENT, IS EITHER A SECRET SERVANT OF THE TSAR, A
+               PROVOCATOR, OR AN UNWISE ASSISTANT OF THE ENEMIES OF THE PEOPLE, OR A PAID SPY OF
+               WILHELM!</p>
+            <p>“Every conscious worker revolutionist, every conscious peasant, every revolutionary
+               soldier, all who understand what harm a demonstration or a revolt against the
+               Government might cause to the people, must join together and not allow the enemies of
+               the people to destroy our freedom.”</p>
+            <p><hi rend="italic">The Petrograd Electoral Committee of the
+               Mensheviki-oborontzi.</hi></p>
+         </div>
+         <div type="numeric" n="11">
+            <head>Lenin's "Letter to the Comrades"</head>
+            <p>This series of articles appeared in Rabotchi Put several days running, at the end of
+               October and beginning of November, 1917. I give here only extracts from two
+               instalments:</p>
+            <p><num>1</num>Kameniev and Riazanov say that we have not a majority among the people,
+               and that without a majority insurrection is hopeless. “Answer: People capable of
+               speaking such things are falsifiers, pedants, or simply don’t want to look the real
+               situation in the face. In the last elections we received in all the country more than
+               fifty per cent of all thevotes….</p>
+            <p>“The most important thing in Russia to-day is the peasants’ revolution. In Tambov
+               Government there has been a real agrarian uprising with wonderful political results….
+               Even Dielo Naroda has been scared into yelling that the land must be turned over to
+               the peasants, and not only the Socialist Revolutionaries in the Council of the
+               Republic, but also the Government itself, has been similarly affected. Another
+               valuable result was the bringing of bread which had been hoarded by the pomieshtchiki
+               to the railroad stations in that province. The Russkaya Volia had to admit that the
+               stations were filled with bread after the peasants’ rising….</p>
+            <p><num>2</num>We are not sufficiently strong to take over the Government, and the
+               bourgeoisie is not sufficiently strong to prevent the Constituent Assembly.</p>
+            <p>“Answer: This is nothing but timidity, expressed by pessimism as regards workers and
+               soldiers, and optimism as regards the failure of the bourgeoisie. If yunkers and
+               Cossacks say they will fight, you believe them; if workmen and soldiers say so, you
+               doubt it. What is the distinction between such doubts and siding politically with the
+               bourgeoisie?</p>
+            <p>“Kornilov proved that the Soviets were really a power. To believe Kerensky and the
+               Council of the Republic, if the bourgeoisie is not strong enough to break the
+               Soviets, it is not strong enough to break the Constituent. But that is wrong. The
+               bourgeoisie will break the Constituent by sabotage, by lock-outs, by giving up
+               Petrograd, by opening the front to the Germans. This has already been done in the
+               case of Riga….</p>
+            <p><num>3</num>The Soviets must remain a revolver at the head of the Government to force
+               the calling of the Constituent Assembly, and to suppress any further Kornilov
+               attempts.</p>
+            <p>“Answer: Refusal of insurrection is refusal of ‘All Power to the Soviets.’ Since
+               September the Bolshevik party has been discussing the question of insurrection.
+               Refusing to rise means to trust our hopes in the faith of the good bourgeoisie, who
+               have ‘promised’ to call the Constituent Assembly. When the Soviets have all the
+               power, the calling of the Constituent is guaranteed, and its success assured.</p>
+            <p>“Refusal of insurrection means surrender to the ‘Lieber-Dans.’ Either we must drop
+               ‘All Power to the Soviets’ or make an insurrection; there is no middle course.”</p>
+            <p><num>4</num>The bourgeoisie cannot give up Petrograd, although the Rodziankos want
+               it, because it is not the bourgeoisie who are fighting, but our heroic soldiers and
+               sailors.</p>
+            <p>“Answer: This did not prevent two admirals from running away at the Moonsund battle.
+               The Staff has not changed; it is composed of Kornilovtsi. If the Staff, with Kerensky
+               at its head, wants to give up Petrograd, it can do it doubly or trebly. It can make
+               arrangements with the Germans or the British; open the fronts. It can sabotage the
+               Army’s food supply. At all these doors has it knocked.</p>
+            <p>“We have no right to wait until the bourgeoisie chokes the Revolution. Rodzianko is a
+               man of action, who has faithfully and truthfully served the bourgeoisie for years….
+               Half the Lieber-Dans are cowardly compromisers; half of them simple fatalists….”</p>
+            <p><num>5</num>We’re getting stronger every day. We shall be able to enter the
+               Constituent Assembly as a strong opposition. Then why should we play everything on
+               one card?”</p>
+            <p>“Answer: This is the argument of a sophomore with no practical experience, who reads
+               that the Constituent Assembly is being called and trustfully accepts the legal and
+               constitutional way. Even the voting of the Constituent Assembly will not do away with
+               hunger, or beat Wilhelm…. The issue of hunger and of surrendering Petrograd cannot be
+               decided by waiting for the Constituent Assembly. Hunger is not waiting. The peasants’
+               Revolution is not waiting. The Admirals who ran away did not wait.</p>
+            <p>“Blind people are surprised that hungry people, betrayed by admirals and generals, do
+               not take an interest in voting.</p>
+            <p><num>6</num>If the Kornilovtsi make an attempt, we would show them our strength. But
+               why should we risk everything by making an attempt ourselves?</p>
+            <p>“Answer: History doesn’t repeat. ‘Perhaps Kornilov will some day make an attempt!’
+               What a serious base for proletarian action! But suppose Kornilov waits for
+               starvation, for the opening of the fronts, what then? This attitude means to build
+               the tactics of a revolutionary party on one of the bourgeoisie’s former mistakes.</p>
+            <p>“Let us forget everything except that there is no way out but by the dictatorship of
+               the proletariat—either that or the dictatorship of Kornilov.</p>
+            <p>“Let us wait, comrades, for—a miracle!”</p>
+         </div>
+      </body>
+   </text>
+</TEI>
