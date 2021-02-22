@@ -1,0 +1,37 @@
+# langage du test
+language: python
+# version
+python:
+  - 3.8
+# mise en cache de certains éléments (pour plus de rapidité en cas de nouvelle exécution)
+cache:
+
+# tests (hooks) à faire selon les grandes étapes de la vie du code
+# before_install:
+# install:
+# before_script:
+# script:
+# after_success:
+# after_failure:
+# after_script:
+# before_deploy:
+# deploy:
+# after_deploy:
+
+# on installe les librairies voulues
+
+install:
+  - pip install lxml
+
+# on lance le script de test
+script:
+  - pytest
+
+# notifications par email
+notifications:
+  email:
+    recipients:
+      - victor.meynaud@chartes.psl.eu
+    on_success: always
+    on_failure: always
+
