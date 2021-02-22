@@ -68,23 +68,26 @@ chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 dossier = dirname(dirname(abspath(__file__)))
 print(dossier)
 
-for filename in dossier:
-    if not filename.endswith(".xml"):
-        print("{fichier} n'est pas du XML".format(fichier=filename))
-    else:
-        doc_a_tester = filename
-        print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
+for root, dirs, files in os.walk("..", topdown=True):
+    for name in files:
+        filename = os.path.join(root, name)
+            if not filename.endswith(".xml"):
+                print("{fichier} n'est pas du XML".format(fichier=filename))
+            else:
+                doc_a_tester = filename
+                print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
 
-        # Import du schéma indépendant de l'OS
-        schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
+                 # Import du schéma indépendant de l'OS
+                schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
 
-        # print(schema)
+                # print(schema)
 
-        # print(doc_a_tester)
-        # print(schema)
+                # print(doc_a_tester)
+                # print(schema)
 
-        # On appelle les fonctions de test sur le document à tester
-        test_well_formed(doc_a_tester)
-        test_ns(doc_a_tester)
-        test_schema(doc_a_tester)
+                # On appelle les fonctions de test sur le document à tester
+                test_well_formed(doc_a_tester)
+                test_ns(doc_a_tester)
+                test_schema(doc_a_tester)
+
     
