@@ -2,7 +2,7 @@
 import glob
 # Librairie permettant d'interagir avec n'importe quel OS
 # import os
-from os.path import dirname, abspath, filename
+from os.path import dirname, abspath
 #Librairie XML
 
 from lxml import etree
