@@ -79,6 +79,7 @@ for root, dirs, files in os.walk("..", topdown=True):
 
             # Import du schéma indépendant de l'OS
             schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
+            print(schema)
             # On appelle les fonctions de test sur le document à tester
             test_well_formed(doc_a_tester)
             test_ns(doc_a_tester)
