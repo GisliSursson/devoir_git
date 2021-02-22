@@ -1,8 +1,8 @@
 # Librairie permettant de manipuler des fichiers
 import glob
 # Librairie permettant d'interagir avec n'importe quel OS
-import os
-from os.path import dirname, abspath
+# import os
+from os.path import dirname, abspath, filename
 #Librairie XML
 
 from lxml import etree
@@ -64,11 +64,14 @@ chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 # Import du document XML du dossier d'au-dessus modifié le plus récemment
 # doc_a_tester = max(glob.iglob('../*.xml'), key=os.path.getctime)
 
+#dossier un cran au-dessus
 dossier = dirname(dirname(abspath(__file__)))
 print(dossier)
 
 for filename in dossier:
-    if filename.endswith(".xml"):
+    if not filename.endswith(".xml"):
+        print("{fichier} n'est pas du XML".format(fichier=filename))
+    else:
         doc_a_tester = filename
         print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
 
@@ -84,3 +87,4 @@ for filename in dossier:
         test_well_formed(doc_a_tester)
         test_ns(doc_a_tester)
         test_schema(doc_a_tester)
+    
