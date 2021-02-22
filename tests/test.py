@@ -65,6 +65,7 @@ chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 # doc_a_tester = max(glob.iglob('../*.xml'), key=os.path.getctime)
 
 dossier = dirname(dirname(abspath(__file__)))
+print(dossier)
 
 for filename in dossier:
     if filename.endswith(".xml"):
@@ -83,5 +84,3 @@ for filename in dossier:
         test_well_formed(doc_a_tester)
         test_ns(doc_a_tester)
         test_schema(doc_a_tester)
-    else:
-        pass
