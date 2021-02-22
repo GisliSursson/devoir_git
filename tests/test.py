@@ -61,12 +61,11 @@ def test_schema(doc):
 
 chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 
-# Import du document XML du dossier d'au-dessus modifié le plus récemment
-# doc_a_tester = max(glob.iglob('../*.xml'), key=os.path.getctime)
-
 #dossier un cran au-dessus
 dossier = dirname(dirname(abspath(__file__)))
 print(dossier)
+# Import du schéma indépendant de l'OS
+schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
 
 for root, dirs, files in os.walk("..", topdown=True):
     for name in files:
@@ -76,10 +75,7 @@ for root, dirs, files in os.walk("..", topdown=True):
         else:
             doc_a_tester = filename
             print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
-
-            # Import du schéma indépendant de l'OS
-            schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
-            print(schema)
+            print("Le schema est : {fichier}".format(fichier = schema))
             # On appelle les fonctions de test sur le document à tester
             test_well_formed(doc_a_tester)
             test_ns(doc_a_tester)
