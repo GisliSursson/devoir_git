@@ -71,23 +71,17 @@ print(dossier)
 for root, dirs, files in os.walk("..", topdown=True):
     for name in files:
         filename = os.path.join(root, name)
-            if not filename.endswith(".xml"):
-                print("{fichier} n'est pas du XML".format(fichier=filename))
-            else:
-                doc_a_tester = filename
-                print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
+        if not filename.endswith(".xml"):
+            print("{fichier} n'est pas du XML".format(fichier=filename))
+        else:
+            doc_a_tester = filename
+            print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
 
-                 # Import du schéma indépendant de l'OS
-                schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
-
-                # print(schema)
-
-                # print(doc_a_tester)
-                # print(schema)
-
-                # On appelle les fonctions de test sur le document à tester
-                test_well_formed(doc_a_tester)
-                test_ns(doc_a_tester)
-                test_schema(doc_a_tester)
+            # Import du schéma indépendant de l'OS
+            schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
+            # On appelle les fonctions de test sur le document à tester
+            test_well_formed(doc_a_tester)
+            test_ns(doc_a_tester)
+            test_schema(doc_a_tester)
 
     
