@@ -1,7 +1,7 @@
 # Librairie permettant de manipuler des fichiers
 import glob
 # Librairie permettant d'interagir avec n'importe quel OS
-# import os
+import os
 from os.path import dirname, abspath
 #Librairie XML
 
