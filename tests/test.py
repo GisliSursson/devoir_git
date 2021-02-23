@@ -2,33 +2,20 @@
 import glob
 # Librairie permettant d'interagir avec n'importe quel OS
 import os
-
+from os.path import dirname, abspath
 #Librairie XML
+
 from lxml import etree
 from lxml.etree import XMLSyntaxError
 
 
 # FAIRE LA DOCUMENTATION DES FONCTIONS
-
-chemin_actuel = os.path.dirname(os.path.abspath(__file__))
-
-# Import du document XML du dossier d'au-dessus modifié le plus récemment
-doc_a_tester = max(glob.iglob('../*.xml'), key=os.path.getctime)
-
-# Import du schéma indépendant de l'OS
-schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
-
-print(schema)
-
-print(doc_a_tester)
-print(schema)
-
 def test_well_formed(doc):
     """ Test XM# doc_a_tester = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "*.xml"), key=os.path.getctime)L bien formé (par rapport à la syntaxe XML)
-    
-    :param doc: doc à tester
-    :type doc: TextIOWrapper
-    :returns: rien
+            
+            :param doc: doc à tester
+            :type doc: TextIOWrapper
+            :returns: rien
     """
     with open(doc) as doc:
         try:
@@ -37,13 +24,13 @@ def test_well_formed(doc):
         except XMLSyntaxError:
             print("Attention ! Votre XML n'est pas bien formé")
 
-# Test présence du name space TEI (les atributs fonctionnent comme des dict)
+        # Test présence du name space TEI (les atributs fonctionnent comme des dict)
 def test_ns(doc):
     """ Test si l'élément racine est bien TEI avec le ns TEI
-    
-    :param doc: doc à tester
-    :type doc: TextIOWrapper
-    :returns: rien
+            
+            :param doc: doc à tester
+            :type doc: TextIOWrapper
+            :returns: rien
     """
     with open(doc) as doc:
         doc = etree.parse(doc)
@@ -55,25 +42,43 @@ def test_ns(doc):
 
 
 
-# Test XML valide (par rapport au schéma du projet)
+        # Test XML valide (par rapport au schéma du projet)
 def test_schema(doc):
     """ Test si le document est conforme au schéma du projet 
-    
-    :param doc: doc à tester
-    :type doc: TextIOWrapper
-    :returns: rien
+            
+            :param doc: doc à tester
+            :type doc: TextIOWrapper
+            :returns: rien
     """
     with open(doc) as doc:
         relaxng_doc = etree.parse(schema)
         relaxng = etree.RelaxNG(relaxng_doc)
         doc = etree.parse(doc)
         if relaxng.validate(doc) == True:
-           print("Votre document est conforme au schéma!")
+            print("Votre document est conforme au schéma!")
         else:
             raise Exception("Votre document n'est pas valide par rapport au schéma!")
 
+chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 
-# On appelle les fonctions de test sur le document à tester
-test_well_formed(doc_a_tester)
-test_ns(doc_a_tester)
-test_schema(doc_a_tester)
+#dossier un cran au-dessus
+dossier = dirname(dirname(abspath(__file__)))
+print(dossier)
+# Import du schéma indépendant de l'OS
+schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
+
+for root, dirs, files in os.walk("..", topdown=True):
+    for name in files:
+        filename = os.path.join(root, name)
+        if not filename.endswith(".xml"):
+            print("{fichier} n'est pas du XML".format(fichier=filename))
+        else:
+            doc_a_tester = filename
+            print("Fichier en cours de test : {fichier}".format(fichier = doc_a_tester))
+            print("Le schema est : {fichier}".format(fichier = schema))
+            # On appelle les fonctions de test sur le document à tester
+            test_well_formed(doc_a_tester)
+            test_ns(doc_a_tester)
+            test_schema(doc_a_tester)
+
+    

@@ -25,7 +25,7 @@ install:
 
 # on lance le script de test
 script:
-  - pytest
+  - python3 tests/test.py
 
 # notifications par email
 notifications:
