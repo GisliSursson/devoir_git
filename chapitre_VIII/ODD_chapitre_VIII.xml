@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Ten days that shook the World</title>
+                <title type="subtitle">Appendix to Chapter VIII - </title>
+                <author>John Silas Reed</author>
+                <respStmt>
+                    <resp> Encodage realise dans le cadre du contrôle continu du cours de GIT -
+                        GITHUB</resp>
+                    <persName>
+                        <forename>Alex</forename>
+                        <surname> Soares</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Boni and Liveright</publisher>
+                <publisher ref="contributor">Internet Archive</publisher>
+                <pubPlace>New York, New York, United States of America</pubPlace>
+                <date when="1919">1919</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Ten Days That Shook the World</title>
+                    <author>John Silas Reed</author>
+                    <distributor
+                        facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World/Appendices"
+                    />
+                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <imprint>
+                            <publisher>Boni and Liveright</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1919">1919</date>
+            </creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p> this project is the outcome of few classes of git and github.</p>
+                </div>
+
+                <div facs="https://www.supersummary.com/ten-days-that-shook-the-world/summary/">
+                    <head>Ten Days That Shook the World</head>
+                    <p>Ten Days That Shook the World is a 1919 book on the October Revolution in
+                        Russia by American journalist and socialist activist John Reed. Written in
+                        just two to three weeks, the book draws from Reed’s fresh, intense
+                        experience in Russia during the revolution, which took place in 1917. Reed
+                        gives historical background on the Bolshevik political leaders, whom he
+                        studied closely while living in Russia. He died less than a year after the
+                        book was published, and was exalted by the Russian government, which gave
+                        him an honorary gravesite at the Kremlin Wall Necropolis. Intensely
+                        emotional and vivid, the book is almost fiction-like in its
+                        larger-than-life, though scrupulously researched and historically correct,
+                        retelling of the October Revolution. Reed begins Ten Days That Shook the
+                        World shortly before the beginning of the revolution, which coincided with a
+                        government coup in which the Leninist Bolshevik party commandeered the
+                        Russian state. The takeover ousted the conservative czarist regime and
+                        inaugurated decades of worsening chaos in Russia. Reed chronicles the
+                        political and social causes for this abrupt shift in power and its bitter
+                        consequences. Though the October Revolution lasted for less than a year,
+                        Reed argues that the Russian state’s political collapse had been made
+                        inevitable years before. The first strong signal was growing resentment
+                        towards Russia’s czar, Nicholas II. A flurry of revolts erupted in
+                        Petrograd, the place now called St. Petersburg, forcing him to abdicate the
+                        throne, which he had occupied since 1894. Much of the czar’s power then
+                        moved into the hands of a lawyer and revolutionary hero, Aleksandr Kerensky,
+                        who helped form the Russian Provisional Government. Kerensky would go on to
+                        become Minister of Justice and Minister of War, but ultimately fail to
+                        establish stable governance. His coalition soon fell apart, as it consisted
+                        of too many socioeconomically disparate groups with very different desires
+                        for the future of Russia. In response to growing global instability, several
+                        regressive, even proto-fascist laws were passed around the world. Of these
+                        in the United States, the Espionage Act was passed, which in the summer of
+                        1917 made it illegal to disseminate media with anti-war sentiments. The
+                        government endowed the U.S. Post Office with special powers to intercept
+                        mail at its own discretion. Reed’s main employer at the time, the
+                        publication The Masses, was accused of defying this policy and was shut
+                        down. In its stead, the newspaper The Liberator published Max Eastman’s
+                        writings on the revolution, but heavily edited his arguments to preserve
+                        itself. Reed left Russia in April 1918, via Kristiania, Norway (the city now
+                        known as Oslo). He had just been served a ban on national entry from both
+                        Russia and the United States. When he finally returned to the United States,
+                        the State Department seized his suitcases, which contained thousands of
+                        pieces of Russian propaganda, speech drafts, and newspapers. The custom
+                        officials subjected him to an intense interrogation, which lasted hours and
+                        scrupulously covered the past eight months of his life. A man named Michael
+                        Gold witnessed Reed’s detainment at the airport and attests to the fact that
+                        he was treated poorly. Reed was still sick from alkaloid poisoning, and the
+                        stress of it combined with the interrogation made him sicker. That summer,
+                        he pressed the government to return his papers, but it refused. Late the
+                        following autumn, he finally reclaimed them while living in Sheridan Square.
+                        He then set feverishly to work recording his experiences in Russia, worried
+                        that they would soon fade. An avowed socialist, Reed spoke highly of both
+                        Trotsky and Lenin. Despite his clear political biases, the work itself
+                        refrains from promoting the Bolshevik agenda. Ten Days That Shook the World
+                        is widely viewed as a rigorous and unbiased account of the October
+                        Revolution, and a masterpiece of journalism. One of the first modern
+                        dramatic works of personal journalism, it is celebrated today for the depth
+                        of insight it provides into Russian turmoil, despite being written before
+                        that turmoil was over. </p>
+                </div>
+
+                <!-- AUTOGENERATED -->
+                <div>
+                    <schemaSpec ident="oddbyexample" start="TEI ">
+                        <moduleRef key="tei"/>
+                        <!--Checking module textcrit-->
+                        <classRef key="att.textCritical"/>
+                        <classRef key="model.rdgLike"/>
+                        <classRef key="model.rdgPart"/>
+                        <classSpec ident="att.textCritical" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                                <attDef ident="cause" mode="delete"/>
+                                <attDef ident="varSeq" mode="delete"/>
+                                <attDef ident="require" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <!--Checking module msdescription-->
+                        <classRef key="model.physDescPart"/>
+                        <!--Checking module namesdates-->
+                        <classRef key="model.persNamePart"/>
+                        <!--Checking module dictionaries-->
+                        <classRef key="att.lexicographic"/>
+                        <classRef key="model.entryLike"/>
+                        <classRef key="model.formPart"/>
+                        <classRef key="model.gramPart"/>
+                        <classRef key="model.lexicalRefinement"/>
+                        <classRef key="model.morphLike"/>
+                        <classRef key="model.ptrLike.form"/>
+                        <classSpec ident="att.lexicographic" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="expand" mode="delete"/>
+                                <attDef ident="split" mode="delete"/>
+                                <attDef ident="value" mode="delete"/>
+                                <attDef ident="location" mode="delete"/>
+                                <attDef ident="mergedIn" mode="delete"/>
+                                <attDef ident="opt" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <!--Checking module tagdocs-->
+                        <classRef key="att.combinable"/>
+                        <classRef key="att.identified"/>
+                        <classRef key="model.contentPart"/>
+                        <classSpec ident="att.combinable" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="mode" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.identified" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="ident" mode="delete"/>
+                                <attDef ident="predeclare" mode="delete"/>
+                                <attDef ident="module" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="toWhom" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.dimensions" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="unit" mode="delete"/>
+                                <attDef ident="quantity" mode="delete"/>
+                                <attDef ident="extent" mode="delete"/>
+                                <attDef ident="precision" mode="delete"/>
+                                <attDef ident="scope" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.damaged" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="agent" mode="delete"/>
+                                <attDef ident="degree" mode="delete"/>
+                                <attDef ident="group" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.datable.w3c" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="from" mode="delete"/>
+                                <attDef ident="to" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.datable" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="calendar" mode="delete"/>
+                                <attDef ident="period" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.divLike" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="org" mode="delete"/>
+                                <attDef ident="sample" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.media" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="width" mode="delete"/>
+                                <attDef ident="height" mode="delete"/>
+                                <attDef ident="scale" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.naming" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="role" mode="delete"/>
+                                <attDef ident="nymRef" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.typed" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="subtype" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.pointing" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="targetLang" mode="delete"/>
+                                <attDef ident="evaluate" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.pointing.group" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="domains" mode="delete"/>
+                                <attDef ident="targFunc" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.segLike" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="function" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.timed" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="start" mode="delete"/>
+                                <attDef ident="end" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.transcriptional" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="status" mode="delete"/>
+                                <attDef ident="cause" mode="delete"/>
+                                <attDef ident="seq" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <classSpec ident="att.personal" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="full" mode="delete"/>
+                                <attDef ident="sort" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <!--Checking module core-->
+                        <moduleRef key="core"
+                            include="p hi desc term name date abbr ptr ref head graphic title publisher"/>
+                        <elementSpec ident="desc" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="term" mode="change">
+                            <attList>
+                                <attDef ident="target" mode="delete"/>
+                                <attDef ident="type" mode="change">
+                                    <valList mode="add" type="closed">
+                                        <valItem ident="bla"/>
+                                    </valList>
+                                </attDef>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="name" mode="change">
+                            <attList>
+                                <attDef ident="when" mode="delete"/>
+                                <attDef ident="notBefore" mode="delete"/>
+                                <attDef ident="notAfter" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="date" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="abbr" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="ptr" mode="change">
+                            <attList>
+                                <attDef ident="mimeType" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="ref" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="head" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="title" mode="change">
+                            <attList>
+                                <attDef ident="level" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                                <attDef ident="when" mode="delete"/>
+                                <attDef ident="notBefore" mode="delete"/>
+                                <attDef ident="notAfter" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <!--Checking module figures-->
+                        <!--Checking module header-->
+                        <moduleRef key="header"
+                            include="teiHeader fileDesc titleStmt publicationStmt sourceDesc revisionDesc change"/>
+                        <elementSpec ident="change" mode="change">
+                            <attList>
+                                <attDef ident="target" mode="delete"/>
+                                <attDef ident="when" mode="delete"/>
+                                <attDef ident="notBefore" mode="delete"/>
+                                <attDef ident="notAfter" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <!--Checking module gaiji-->
+                        <!--Checking module verse-->
+                        <!--Checking module transcr-->
+                        <!--Checking module linking-->
+                        <!--Checking module analysis-->
+                        <classRef key="att.linguistic"/>
+                        <classSpec ident="att.linguistic" type="atts" mode="change">
+                            <attList>
+                                <attDef ident="lemma" mode="delete"/>
+                                <attDef ident="lemmaRef" mode="delete"/>
+                                <attDef ident="pos" mode="delete"/>
+                                <attDef ident="msd" mode="delete"/>
+                                <attDef ident="join" mode="delete"/>
+                            </attList>
+                        </classSpec>
+                        <!--Checking module textstructure-->
+                        <moduleRef key="textstructure" include="TEI text body div"/>
+                        <elementSpec ident="TEI" mode="change">
+                            <attList>
+                                <attDef ident="version" mode="delete"/>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="text" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="delete"/>
+                            </attList>
+                        </elementSpec>
+                        <elementSpec ident="div" mode="change">
+                            <attList>
+                                <attDef ident="type" mode="change">
+                                    <valList mode="add" type="closed">
+                                        <valItem ident="section"/>
+                                        <valItem ident="subsection"/>
+                                    </valList>
+                                </attDef>
+                            </attList>
+                        </elementSpec>
+                    </schemaSpec>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
