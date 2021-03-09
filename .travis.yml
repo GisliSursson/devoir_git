@@ -32,6 +32,11 @@ notifications:
   email:
     recipients:
       - victor.meynaud@chartes.psl.eu
+      - pierre.tuloup@chartes.psl.eu
+      - morgan.godin@chartes.psl.eu
+      - alex.soares@chartes.psl.eu
+      - juliane.bergez@chartes.psl.eu
+      - julien.fenech@chartes.psl.eu
     on_success: always
     on_failure: always
 
