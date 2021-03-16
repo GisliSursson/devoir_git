@@ -38,7 +38,7 @@ def test_ns(doc):
         root = doc.getroot()
         # récupère l'élément racine
         root = root.tag
-        assert root == "{http://www.tei-c.org/ns/1.0}TEI", "La racine doit être TEI (avec l'espace de nom TEI"
+        assert root == "{http://www.tei-c.org/ns/1.0}TEI", "La racine doit être TEI (avec l'espace de nom TEI)"
 
 
 
