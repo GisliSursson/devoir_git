@@ -65,7 +65,7 @@ chemin_actuel = os.path.dirname(os.path.abspath(__file__))
 dossier = dirname(dirname(abspath(__file__)))
 print(dossier)
 # Import du schéma indépendant de l'OS
-schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "tei_all.rng"))
+schema = os.path.abspath(os.path.join(chemin_actuel, os.pardir, "schema.rng"))
 
 for root, dirs, files in os.walk("..", topdown=True):
     for name in files:
