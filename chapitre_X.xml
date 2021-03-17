@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">Ten days that shook the World/Appendices</title>
+            <title type="full">APPENDIX TO CHAPTER X</title>
+            <author cert="high">John Reed</author>
+            <respStmt>
+               <resp>Texte encodé dans le cadre du devoir GIT de l'ENC</resp>
+               <name>Julien Fenech</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Boni and Liveright</publisher>
+            <publisher ref="contributor">Internet Archive</publisher>
+            <pubPlace>New York, New York, United States of America</pubPlace>
+            <date when="1919">1919</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ten Days That Shook the World by John Reed</title>
+               <distributor
+                  facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World/Appendices"/>
+               <biblScope unit="page" from="325" to="420">pp.325-420</biblScope>
+            </bibl>
+            <biblStruct>
+               <monogr>
+                  <imprint>
+                     <publisher>Boni and Liveright</publisher>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1919">1919</date>
+         </creation>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textDesc n="novel">
+            <channel mode="w">printed</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="art"/>
+            <factuality type="mixed"/>
+            <interaction type="none"/>
+            <preparedness type="prepared"/>
+            <purpose type="entertain" degree="high"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name>Russia</name>
+               <time>October 1917</time>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>APPENDIX TO CHAPTER X</head>
+         <div type="numeric" n="1">
+            <head>DAMAGE TO THE KREMLIN</head>
+            <p>I myself verified the damage to the Kremlin, which I visited immediately after the
+               bombardment. The Little Nicolai Palace, a building of no particular importance, which
+               was occupied occasionally by receptions of one of the Grand Duchesses, had served as
+               barracks for the yunkers. It was not only bombarded, but pretty well sacked;
+               fortunately there was nothing in it of particular historical value.</p>
+            <p>Usspensky Cathedral had a shell-hole in one of the cupolas, but except for a few feet
+               of mosaic in the ceiling, was undamaged. The frescoes on the porch of
+               Blagovestchensky Cathedral were badly damaged by a shell. Another shell hit the
+               corner of Ivan Veliki. Tchudovsky Monastery was hit about thirty times, but only one
+               shell went through a window into the interior, the others breaking the brick
+               window-moulding and the roof cornices. </p>
+            <p>The clock over the Spasskaya Gate was smashed. Troitsky Gate was battered, but easily
+               reparable. One of the lower towers had lost its brick spire.</p>
+            <p>The church of St. Basil was untouched, as was the great Imperial Palace, with all the
+               treasures of Moscow and Petrograd in its cellar, and the crown jewels in the
+               Treasury. These places were not even entered.</p>
+         </div>
+         <div type="numeric" n="2">
+            <head>LUNATCHARSKY’s DECLARATION</head>
+            <p>“Comrades! You are the young masters of the country, and although now you have much
+               to do and think about, you must know how to defend your artistic and scientific
+               treasures. </p>
+            <p>“Comrades! That which is happening at Moscow is a horrible, irreparable misfortune….
+               The People in its struggle for the power has mutilated our glorious capital.</p>
+            <p>“It is particularly terrible in these days of violent struggle, of destructive
+               warfare, to be Commissar of Public Education. Only the hope of the victory of
+               Socialism, the source of a new and superior culture, brings me comfort. On me weighs
+               the responsibility of protecting the artistic wealth of the people…. Not being able
+               to remain at my post, where I had no influence, I resigned. My comrades, the other
+               Commissars, considered this resignation inadmissible. I shall therefore remain at my
+               post…. And moreover, I understand that the damage done to the Kremlin is not as
+               serious as has been reported…. </p>
+            <p>“But I beg you, comrades, to give me your support…. Preserve for yourselves and your
+               descendants the beauty of our land; be the guardians of the property of the
+               People.</p>
+            <p>“Soon, very soon, even the most ignorant, who have been held in ignorance so long,
+               will awake and understand what a source of joy, strength and wisdom is art….” </p>
+         </div>
+         <div type="numeric" n="3">
+            <head>QUESTIONNAIRE FOR THE BOURGEOISIE</head>
+            <p>[Graphic page-354]</p>
+         </div>
+         <div type="numeric" n="4">
+            <head>REVOLUTIONARY FINANCIAL MEASURE: <hi rend="italic">Order</hi></head>
+            <p>In virtue of the powers vested in me by the Military Revolutionary Committee attached
+               to the Moscow Soviet of Workers’ and Soldiers’ Deputies, I decree:</p>
+            <list rend="numbered">
+               <item n="1">All banks with branches, the Central State Savings Bank with branches,
+                  and the savings banks at the Post and Telegraph offices are to be opened beginning
+                  November 22nd, from 11 A. M. to 1 P. M. until further order.</item>
+               <item n="2">On current accounts and on the books of the savings banks, payments will
+                  be made by the above mentioned institutions, of not more than 150 rubles for each
+                  depositor during the course of the next week.</item>
+               <item n="3">Payments of amounts exceeding 150 rubles a week on current accounts and
+                  savings banks books, also payments on other accounts of all kinds will be allowed
+                  during the next three days—November 22nd, 23d, and 24th, only in the following cases:<list>
+                     <item n="(a)">On the accounts of military organisations for the satisfaction of
+                        their needs; </item>
+                     <item n="(b)">For the payment of salaries of employees and the earnings of
+                        workers according to the tables and lists certified by the Factory
+                        Committees or Soviets of Employees, and attested by the signatures of the
+                        Commissars, or the representatives of the Military Revolutionary Committee,
+                        and the district Military Revolutionary Committees.</item>
+                  </list></item>
+               <item n="4">Not more than 150 rubles are to be paid against drafts; the remaining
+                  sums are to be entered on current account, payments on which are to be made in the
+                  order established by the present decree. </item>
+               <item n="5">All other banking operations are prohibited during these three
+                  days.</item>
+               <item n="6">The receipt of money on all accounts is allowed for any amount. </item>
+               <item n="7">The representatives of the Finance Council for the certification of the
+                  authorisations indicated in clause 3 will hold their office in the building of the
+                  Stock Exchange, Ilyinka Street, from 10 A. M. to 2 P. M. </item>
+               <item n="8">The Banks and Savings Banks shall send the totals of daily cash
+                  operations by 5 P. M. to the headquarters of the Soviet, Skobeliev Square, to the
+                  Military Revolutionary Committee, for the Finance Council. </item>
+               <item n="9">All employees and managers of credit institutions of all kinds who refuse
+                  to comply with this decree shall be responsible as enemies of the Revolution and
+                  of the mass of the population, before the Revolutionary Tribunals. Their names
+                  shall be published for general information. </item>
+               <item n="10">For the control of the operations of Branches of the Savings Banks and
+                  Banks within the limits of this decree, the district Military Revolutionary
+                  Committees shall elect three representatives and appoint their place of business.
+               </item>
+            </list>
+            <signed><hi rend="italic">Fully-authorised Commissar of the Military Revolutionary
+                  Committee,</hi>
+               <name>S. SHEVERDIN-MAKSIMENKO.</name></signed>
+         </div>
+      </body>
+   </text>
+</TEI>
