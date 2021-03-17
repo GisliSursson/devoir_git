@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">Ten days that shook the World/Appendices</title>
+            <title type="full">APPENDIX TO CHAPTER VII</title>
+            <author cert="high">John Reed</author>
+            <respStmt>
+               <resp>Texte encodé dans le cadre du devoir GIT de l'ENC</resp>
+               <name>Julien Fenech</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Boni and Liveright</publisher>
+            <publisher ref="contributor">Internet Archive</publisher>
+            <pubPlace>New York, New York, United States of America</pubPlace>
+            <date when="1919">1919</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ten Days That Shook the World by John Reed</title>
+               <distributor
+                  facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World/Appendices"/>
+               <biblScope unit="page" from="325" to="420">pp.325-420</biblScope>
+            </bibl>
+            <biblStruct>
+               <monogr>
+                  <imprint>
+                     <publisher>Boni and Liveright</publisher>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1919">1919</date>
+         </creation>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textDesc n="novel">
+            <channel mode="w">printed</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="art"/>
+            <factuality type="mixed"/>
+            <interaction type="none"/>
+            <preparedness type="prepared"/>
+            <purpose type="entertain" degree="high"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name>Russia</name>
+               <time>October 1917</time>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>APPENDIX TO CHAPTER VII</head>
+         <div type="numeric" n="1">
+            <head>TWO DECREES</head>
+            <div>
+               <head>On the Press</head>
+               <p>In the serious decisive hour of the Revolution and the days immediately following
+                  it, the Provisional Revolutionary Committee is compelled to adopt a series of
+                  measures against the counter-revolutionary press of all shades.</p>
+               <p>Immediately on all sides there are cries that the new Socialist authority is in
+                  this violating the essential principles of its own programme by an attempt against
+                  the freedom of the press.</p>
+               <p>The Workers’ and Peasants’ Government calls the attention of the population to the
+                  fact that in our country, behind this liberal shield, is hidden the opportunity
+                  for the wealthier classes to seize the lion’s share of the whole press, and by
+                  this means to poison the popular mind and bring confusion into the consciousness
+                  of the masses.</p>
+               <p>Every one knows that the bourgeois press is one of the most powerful weapons of
+                  the bourgeoisie. Especially in this critical moment, when the new authority of the
+                  workers and peasants is in process of consolidation, it is impossible to leave it
+                  in the hands of the enemy, at a time when it is not less dangerous than bombs and
+                  machine-guns. This is why temporary and extraordinary measures have been adopted
+                  for the purpose of stopping the flow of filth and calumny in which the yellow and
+                  green press would be glad to drown the young victory of the people.</p>
+               <p>As soon as the new order is consolidated, all administrative measures against the
+                  press will be suspended; full liberty will be given it within the limits of
+                  responsibility before the law, in accordance with the broadest and most
+                  progressive regulations….</p>
+               <p>Bearing in mind, however, the fact that any restrictions of the freedom of the
+                  press, even in critical moments, are admissible only within the bounds of
+                  necessity, the Council of People’s Commissars decrees as follows: </p>
+               <list rend="numbered">
+                  <item n="1">The following classes of newspapers shall be subject to closure: (a)
+                     Those inciting to open resistance or disobedience to the Workers’ and Peasants’
+                     Government; (b) Those creating confusion by obviously and deliberately
+                     perverting the news; (c) Those inciting to acts of a criminal character
+                     punishable by the laws. </item>
+                  <item n="2">The temporary or permanent closing of any organ of the press shall be
+                     carried out only by virtue of a resolution of the Council of People’s
+                     Commissars. </item>
+                  <item n="3">The present decree is of a temporary nature, and will be revoked by a
+                     special ukaz when normal conditions of public life are re-established.</item>
+               </list>
+               <p> President of the Council of People’s Commissars,</p>
+               <p><name>VLADIMIR ULIANOV (LENIN).</name></p>
+               <p>* * * *</p>
+            </div>
+            <div>
+               <head>On Workers’ Militia</head>
+               <list rend="numbered">
+                  <item n="1">All Soviets of Workers’ and Soldiers’ Deputies shall form a Workers’
+                     Militia. </item>
+                  <item n="2">This Workers’ Militia shall be entirely at the orders of the Soviets
+                     of Workers’ and Soldiers’ Deputies.</item>
+                  <item n="3">Military and civil authorities must render every assistance in arming
+                     the workers and in supplying them with technical equipment, even to the extent
+                     of requisitioning arms belonging to the War Department of the Government. </item>
+                  <item n="4">This decree shall be promulgated by telegraph. Petrograd, November 10,
+                     1917.</item>
+               </list>
+               <p>People’s Commissar of the Interior</p>
+               <p><name>A. I. RYKOV. </name></p>
+               <p>This decree encouraged the formation of companies of Red Guards all over Russia,
+                  which became the most valuable arm of the Soviet Government in the ensuing civil
+                  war.</p>
+            </div>
+         </div>
+         <div type="numeric" n="2">
+            <head>THE STRIKE FUND </head>
+            <p>The fund for the striking Government employees and bank clerks was subscribed by
+               banks and business houses of Petrograd and other cities, and also by foreign
+               corporations doing business in Russia. All who consented to strike against the
+               Bolsheviki were paid full wages, and in some cases their pay was increased. It was
+               the realisation of the strike fund contributors that the Bolsheviki were firmly in
+               power, followed by their refusal to pay strike benefits, which finally broke the
+               strike.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

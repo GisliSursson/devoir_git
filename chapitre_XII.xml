@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">Ten days that shook the World/Appendices</title>
+            <title type="full">APPENDIX TO CHAPTER XII</title>
+            <author cert="high">John Reed</author>
+            <respStmt>
+               <resp>Texte encodé dans le cadre du devoir GIT de l'ENC</resp>
+               <name>Julien Fenech</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Boni and Liveright</publisher>
+            <publisher ref="contributor">Internet Archive</publisher>
+            <pubPlace>New York, New York, United States of America</pubPlace>
+            <date when="1919">1919</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ten Days That Shook the World by John Reed</title>
+               <distributor
+                  facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World/Appendices"/>
+               <biblScope unit="page" from="325" to="420">pp.325-420</biblScope>
+            </bibl>
+            <biblStruct>
+               <monogr>
+                  <imprint>
+                     <publisher>Boni and Liveright</publisher>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1919">1919</date>
+         </creation>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textDesc n="novel">
+            <channel mode="w">printed</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="art"/>
+            <factuality type="mixed"/>
+            <interaction type="none"/>
+            <preparedness type="prepared"/>
+            <purpose type="entertain" degree="high"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name>Russia</name>
+               <time>October 1917</time>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>APPENDIX TO CHAPTER XII</head>
+         <div type="numeric" n="1">
+            <head>INSTRUCTION TO PEASANTS</head>
+            <p>In answer to the numerous enquiries coming from peasants, it is hereby explained that
+               the whole power in the country is from now on held by the Soviets of the Workers’,
+               Soldiers’, and Peasants’ Deputies. The Workers’ Revolution, after having conquered in
+               Petrograd and in Moscow, is now conquering in all other centres of Russia. The
+               Workers’ and Peasants’ Government safeguards the interests of the masses of
+               peasantry, the poorest of them; it is with the majority of peasants and workers
+               against the landowners, and against the capitalists.</p>
+            <p>Hence the Soviets of Peasants’ Deputies, and before all the District Soviets, and
+               subsequently those of the Provinces, are from now on and until the Constituent
+               Assembly meets, full-powered bodies of State authority in their localities. All
+               landlords’ titles to the land are cancelled by the second All-Russian Congress of
+               Soviets. A decree regarding the land has already been issued by the present
+               Provisional Workers’ and Peasants’ Government. On the basis of the above decree all
+               lands hitherto belonging to landlords now pass entirely and wholly into the hands of
+               the Soviets of Peasants’ Deputies. The <hi rend="italic">Volost</hi> (a group of
+               several villages forms a <hi rend="italic">Volost</hi>) Land Committees are
+               immediately to take over all land from the landlords, and to keep a strict account
+               over it, watching that order be maintained, and that the whole estate be well
+               guarded, seeing that from now on all private estates become public property and must
+               therefore be protected by the people themselves.</p>
+            <p>All orders given by the <hi rend="italic">Volost</hi> Land Committees, adopted with
+               the assent of the District Soviets of Peasants’ Deputies, in fulfilment of the
+               decrees issued by the revolutionary power, are absolutely legal and are to be
+               forthwith and irrefutably brought into execution.</p>
+            <p>The Workers’ and Peasants’ Government appointed by the second All-Russian Congress of
+               Soviets has received the name of the Council of People’s Commissars.</p>
+            <p>The Council of People’s Commissars summons the Peasants to take the whole power into
+               their hands in every locality.</p>
+            <p>The workers will in every way absolutely and entirely support the peasants, arrange
+               for them all that is required in connection with machines and tools, and in return
+               they request the peasants to help with the transport of grain.</p>
+            <closer><signed><hi rend="italic">President of the Council of People’s Commissars,</hi>
+                  <name>V. ULIANOV (LENIN).</name></signed>
+               <placeName>Petrograd,</placeName><date when="1917-11-18">November 18th,
+               1917.</date></closer>
+         </div>
+         <div type="numeric" n="2">
+            <p>The full-powered Congress of Peasants’ Soviets met about a week later, and continued
+               for several weeks. Its history is merely an expanded version of the history of the
+               “Extraordinary Conference.” At first the great majority of the delegates were hostile
+               to the Soviet Government, and supported the reactionary wing. Several days later the
+               assembly was supporting the moderates with Tchernov. And several days after that the
+               vast majority of the Congress were voting for the faction of Maria Spiridonova, and
+               sending their representatives into the <hi rend="italic">Tsay-ee-kah</hi> at Smolny….
+               The Right Wing then walked out of the Congress and called a Congress of its own,
+               which went on, dwindling from day to day, until it finally dissolved….</p>
+         </div>
+      </body>
+   </text>
+</TEI>
