@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ten days that shook the World</title>
+            <title>Appendix to Chapter VIII - </title>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>Boni &amp; Liveright</publisher>
+            <pubPlace>Etats-Unis</pubPlace>
+            <date when="1919">1919</date>
+            <distributor facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World"
+               >Wikisource</distributor>
+            <availability>
+               <licence>Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="full">Ten Days That Shook the World</title>
+                  <author><persName>John Reed</persName></author>
+                  <respStmt>
+                     <resp>Encodage réalisé dans le cadre du devoir GIT</resp>
+                     <persName>Alex Soares</persName>
+                  </respStmt>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Boni and Liveright</publisher>
+                  <pubPlace>Etats-Unis</pubPlace>
+                  <date when="1919">1919</date>
+                  <distributor facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World"
+                     >Wikisource</distributor>
+                  <availability>
+                     <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                        >Licence Creative Commons Attribution-partage dans les mêmes
+                        conditions</licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title type="main">Ten Days That Shook the World</title>
+                  <biblScope unit="chapter" n="6"/>
+               </seriesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">Anglais</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div>
+               
+            <head>APPENDIX TO CHAPTER VI</head>
+             
+            <p><num>1.</num></p>  
+            <p>APPEALS AND DENUNCIATIONS</p>
+
+            <p>Appeal to all Citizens and to the Military Organisations of the Socialist
+               Revolutionary Party.</p>
+
+            <p> “The senseless attempt of the Bolsheviki is on the eve of complete failure. The
+               garrison is disaffected…. The Ministries are idle, bread is lacking. All factions
+               except a handful of Bolsheviki have left the Congress of Soviets. The Bolsheviki are
+               alone! Abuses of all sorts, acts of vandalism and pillage, the bombardment of the
+               Winter Palace, arbitrary arrests—all these crimes committed by the Bolsheviki have
+               aroused against them the resentment of the majority of the sailors and soldiers. The
+               Tsentroflot refuses to submit to the orders of the Bolsheviki…. “We call upon all
+               sane elements to gather around the Committee for Salvation of Country and Revolution;
+               to take serious measures to be ready, at the first call of the Central Committee of
+               the Party, to act against the counter-revolutionists, who will doubtless attempt to
+               profit by these troubles provoked by the Bolshevik adventure, and to watch closely
+               the external enemy, who also would like to take advantage of this opportune moment
+               when the Front is weakened….” The Military Section of the Central Committee of the
+               Socialist Revolutionary Party. </p>
+
+            <note>* * * *</note>
+
+            <p>From Pravda:</p>
+
+            <p>“What is Kerensky?</p>
+
+            <p>“A usurper, whose place is in Peter-Paul prison, with Kornilov and Kishkin.</p>
+
+            <p>“A criminal and a traitor to the workers, soldiers and peasants, who believed in
+               him.</p>
+
+            <p>“Kerensky? A murderer of soldiers!</p>
+
+            <p>“Kerensky? A public executioner of peasants!</p>
+
+            <p>“Kerensky? A strangler of workers!</p>
+
+            <p>“Such is the second Kornilov who now wants to butcher Liberty!”</p>
+         </div>
+      </body>
+   </text>
+</TEI>

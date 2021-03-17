@@ -12,16 +12,46 @@
            </titleStmt>
         
         <publicationStmt>
-           <publisher>Boni and Liveright</publisher>
-           <publisher ref="contributor">Internet Archive</publisher>
-         
+           <publisher>Boni &amp; Liveright</publisher>
+           <pubPlace>Etats-Unis</pubPlace>
            <date when="1919">1919</date>
+           <distributor facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World">Wikisource</distributor>
+           <availability>
+              <licence>Domaine public</licence>
+           </availability>
         </publicationStmt>
         <sourceDesc>
-           
-           <p></p>
+           <biblFull>
+              <titleStmt>
+                 <title type="full">Ten Days That Shook the World</title>
+                 <author><persName>John Reed</persName></author>
+                 <respStmt>
+                    <resp>Encodage réalisé dans le cadre du devoir GIT</resp>
+                    <persName>Alex Soares</persName>
+                 </respStmt>
+              </titleStmt>
+              <publicationStmt>
+                 <publisher>Boni &amp; Liveright</publisher>
+                 <pubPlace>Etats-Unis</pubPlace>
+                 <date when="1919">1919</date>
+                 <distributor facs="https://en.wikisource.org/wiki/Ten_Days_That_Shook_the_World">Wikisource</distributor>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                       Creative Commons Attribution-partage dans les mêmes conditions</licence>
+                 </availability>
+              </publicationStmt>
+              <seriesStmt>
+                 <title type="main">Ten Days That Shook the World</title>
+                 <biblScope unit="chapter" n="6"/>
+              </seriesStmt>
+           </biblFull>
         </sourceDesc>
      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="eng">Anglais</language>
+        </langUsage>
+     </profileDesc>
     
   </teiHeader>
   <text>
